@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anthony.myapplication.MainActivity"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        app:srcCompat="@drawable/nioh"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="209dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="-16dp"
+        android:layout_marginLeft="-16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nioh is a dark, samurai-centric, action RPG currently in development by Koei Tecmo Games exclusively for the PlayStation®4 platform."
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Nioh, players will traverse war-torn Japan as William, a blonde-haired swordsman whose background as a fierce warrior and seasoned knowledge of the blade allows him to survive in the demon-plagued land of the samurai. Known as Yokai, these demons inhabit a number of dangerous locations and lie in wait in the shadows to ambush unsuspecting victims. Players will also face off with other samurai in supernatural sword battles and intense, multi-target engagements offering a level of difficulty that will truly test even the most hardened samurai’s skills, patience, and strategy."        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:id="@+id/textView"
+        android:layout_weight="2"/>
+
+
+</LinearLayout>
